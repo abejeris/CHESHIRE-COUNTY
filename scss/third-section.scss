@@ -53,7 +53,7 @@
         justify-content: space-around;
 
         .middle-side {
-            max-width: 520px;
+            width: 520px;
 
             h2 {
                 color: white;
@@ -73,7 +73,6 @@
             flex-direction: column;
             width: 380px;
             height: 380px;
-            flex-shrink: 0.3;
 
             .top {
                 display: flex;

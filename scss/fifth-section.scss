@@ -33,7 +33,7 @@
 
         .sections {
             max-height: 200px;
-            max-width: 285px;
+            width: 285px;
             height: 100%;
             @include flexi;
             flex-direction: column;

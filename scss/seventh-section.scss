@@ -14,8 +14,9 @@
         margin: auto;
     }
 
-    .swiper {
+    .swiper3 {
         max-width: 1200px;
+        width: 90%;
         z-index: 0;
 
         .swiper-wrapper {
@@ -97,17 +98,6 @@
     }
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    text-shadow: 0 0 10px $myblue;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    color: white;
-    text-shadow: 0 0 5px $myblue;
-    font-size: 3em;
-}
 
 .swiper-pagination-bullet {
     background-color: transparent;

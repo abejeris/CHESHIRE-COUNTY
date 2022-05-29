@@ -40,7 +40,7 @@ sendIt.addEventListener("click", function () {
 var cubes = document.getElementsByClassName("cube")
 
 for (var x of cubes) {
-    x.addEventListener("click", function () {
+    x.addEventListener("mouseover", function () {
 
         var index = this.getAttribute("index")
 
