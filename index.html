@@ -2,10 +2,536 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="app/css/style.css">
-    <title>Gulp template</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="app/css/style.css">
+  <title>Cheshire County</title>
+
 <body>
-  <h1>Gulp template</h1>
+  <div class="container">
+    <nav>
+      <div class="nav-title"><img src="app/images/cheshire-county-hygiene-services-2.svg" alt="company logo"></div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contacts">Contact</a>
+        <i id="plus" class="fa-solid fa-plus display"></i>
+      </div>
+      <nav class="side-nav">
+        <a class="side" href="#features">Features</a>
+        <a class="side" href="#about">About</a>
+        <a class="side" href="#pricing">Pricing</a>
+        <a class="side" href="#reviews">Reviews</a>
+        <a class="side" href="#contacts">Contact</a>
+      </nav>
+    </nav>
+
+    <div class="first-section">
+      <div class="info">
+        <img src="app/images/cheshire-county-hygiene-services-2.svg" alt="company logo">
+        <h2>Explained propriety <br> of out perpetual to you</h2>
+        <div></div>
+        <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged
+          visitor.
+          Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated
+          astonished is.</p>
+        <button>Download</button>
+      </div>
+      <div class="trial">
+        <h2>Try Your <span>FREE</span> Trial Today</h2>
+        <h4>Your Details</h4>
+        <input id="input1" type="text" placeholder="First name">
+        <input id="input2" type="text" placeholder="Last name">
+        <input id="input3" type="tel" placeholder="Phone number">
+        <form action="#">
+          <h4>Type of subscription</h4>
+          <div class="inputs">
+            <input id="monthly" type="radio" name="subscription" value="monthly">
+            <label for="monthly">MONTHLY</label>
+            <input id="yearly" type="radio" name="subscription" value="yearly">
+            <label for="yearly">YEARLY</label>
+          </div>
+        </form>
+        <a id="getstarted" href="#">GET STARTED</a>
+      </div>
+    </div>
+
+    <div class="second-section">
+      <div class="text">
+        <h3>Social Media</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+      </div>
+      <div class="icons">
+        <a href="#i"><img src="app/images/facebook-logo-1.svg" alt="facebook"></a>
+        <a href="#i"><img src="app/images/instagram-logo-1.svg" alt="instagram"></a>
+        <a href="#i"><img src="app/images/twitter-1.svg" alt="twitter"></a>
+        <a href="#i"><img src="app/images/pinterest-1.svg" alt="pinterest"></a>
+        <a href="#i"><img id="svg" src="app/images/rss-solid.svg" alt="rss"></a>
+      </div>
+    </div>
+
+    <div id="features" class="third-section">
+      <div class="left-side">
+        <div index="0" class="cube">
+          <a href="#i">
+            <h3>REGISTER</h3>
+          </a>
+        </div>
+        <div index="1" class="cube">
+          <a href="#i">
+            <h3>APPLY</h3>
+          </a>
+        </div>
+        <div index="2" class="cube">
+          <a href="#i">
+            <h3>RECEIVE</h3>
+          </a>
+        </div>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper1 swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slider">
+              <div class="middle-side">
+                <h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida
+                  dolor
+                  sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus
+                  et
+                  magnis
+                  dis
+                  parturient montes.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              </div>
+              <div class="right-side">
+                <div class="top">
+                  <div class="left">
+                    <div class="text">Explore</div>
+                  </div>
+                  <div class="right">
+                    <div class="text">Explore</div>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <div class="text">Explore</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider">
+              <div class="middle-side">
+                <h2>Tabs with soft transitioning effect. Confused impropriety fro in temporary her me.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida
+                  dolor
+                  sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus
+                  et
+                  magnis
+                  dis
+                  parturient montes.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              </div>
+              <div class="right-side">
+                <div class="top">
+                  <div class="left">
+                    <div class="text">Explore</div>
+                  </div>
+                  <div class="right">
+                    <div class="text">Explore</div>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <div class="text">Explore</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider">
+              <div class="middle-side">
+                <h2>Tabs with soft transitioning effect. Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                  gravida
+                  dolor
+                  sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus
+                  et
+                  magnis
+                  dis
+                  parturient montes.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              </div>
+              <div class="right-side">
+                <div class="top">
+                  <div class="left">
+                    <div class="text">Explore</div>
+                  </div>
+                  <div class="right">
+                    <div class="text">Explore</div>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <div class="text">Explore</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="fourth-section">
+      <div class="left-side">
+        <img src="app/images/cheshire-county-hygiene-services-2.svg" alt="company logo">
+      </div>
+      <div class="right-side">
+        <h3>Erat tempor tempus <br> erat malesuada</h3>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+          sit amet
+          lacus accumsan et viverra justo commodo.</p>
+        <div class="bottom">
+          <div class="paragraph">
+            <div class="icon">
+              <i class="fa-regular fa-eye"></i>
+            </div>
+            <div class="text">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+          </div>
+          <div class="paragraph">
+            <div class="icon">
+              <i class="fa-regular fa-comment"></i>
+            </div>
+            <div class="text">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fifth-section">
+      <h2>WHY THIS IS AWESOME</h2>
+      <div class="line"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="bottom">
+        <div class="sections">
+          <div class="icons">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h4>Thoughtful Design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
+        </div>
+        <div class="sections">
+          <div class="icons">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <h4>Well Crafted</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aenean euismod bibendum.</p>
+        </div>
+        <div class="sections">
+          <div class="icons">
+            <i class="fa-brands fa-cc-visa"></i>
+          </div>
+          <h4>Easy to Customize</h4>
+          <p>Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="pricing" class="sixth-section">
+      <h3>PRICING OPTIONS</h3>
+      <div class="line"></div>
+      <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>
+      <div class="blocks">
+        <div class="block">
+          <h4>Basic</h4>
+          <h3>$<span>0</span></h3>
+          <h5>Free for life</h5>
+          <div class="line"></div>
+          <h6>1 GB OF SPACE</h6>
+          <h6>10 GB OF BANDWIDTH</h6>
+          <h6>3 WEBSITES</h6>
+          <h6>BASIC CUSTOMIZATION</h6>
+          <h6>WORDPRESS INTEGRATION</h6>
+          <h6 class="support">EMAIL SUPPORT</h6>
+        </div>
+        <div class="block">
+          <h4>Profesional</h4>
+          <h3>$<span>19</span></h3>
+          <h5>Monthly Payment</h5>
+          <h4 id="popular">OUR MOST POPULAR</h4>
+          <h6>5 GB OF SPACE</h6>
+          <h6>50 GB OF BANDWIDTH</h6>
+          <h6>12 WEBSITES</h6>
+          <h6>ADVANCED CUSTOMIZATION</h6>
+          <h6>WORDPRESS INTEGRATION</h6>
+          <h6 class="support">EMAIL SUPPORT</h6>
+        </div>
+        <div class="block">
+          <h4>Enterprice</h4>
+          <h3>$<span>70</span></h3>
+          <h5>Monthly payment</h5>
+          <div class="line"></div>
+          <h6>UNLIMITED SPACE</h6>
+          <h6>UNLIMITED BANDWITH</h6>
+          <h6>100 WEBSITES</h6>
+          <h6>ADVANCED CUSTOMIZATION</h6>
+          <h6>WORDPRESS INTEGRATION</h6>
+          <h6 class="support">24/7 CUSTOMER SUPPORT</h6>
+        </div>
+      </div>
+    </div>
+
+    <div id="reviews" class="seventh-section">
+      <h3>WHAT OUR CUSTOMERS ARE SAYING</h3>
+      <div class="line"></div>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+
+            <section>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
+                similique odio
+                aspernatur ex.</p>
+              <div class="bottom">
+                <div id="first" class="avatar"></div>
+                <div class="details">
+                  <h4>Jeremy H.</h4>
+                  <h6>Manager</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+              <div class="bottom">
+                <div id="second" class="avatar"></div>
+                <div class="details">
+                  <h4>John S.</h4>
+                  <h6>Freelancer</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor sitr adipisicing elit. Doloribus accusamus expedita repellat
+                similique odio
+                aspernatur ex.</p>
+              <div class="bottom">
+                <div id="third" class="avatar"></div>
+                <div class="details">
+                  <h4>Susan W.</h4>
+                  <h6>Accountant</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, suos obcaecati soluta inventore quis
+                placeat
+                nobis , blanditiis temporibus ex ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Tiffany C.</h4>
+                  <h6>Surfer</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, suontore quis
+                placeat
+                nobis quas perspiciatis maiores culpa, blanditiis temporibus ex ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Tom B.</h4>
+                  <h6>Engineer</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipscati soluta inventore quis
+                placeat
+                nobis qu ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>David P.</h4>
+                  <h6>Doctor</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, suos obcaecati soluta inventore quis
+                placeat
+                nobis quas perspiciatis maiores oribus ex ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Ashley F.</h4>
+                  <h6>Teacher</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, suos obcaecati soluta inventore quis
+                placeat
+                nobis quas perspiciatis maiores culpa verx ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Valery M.</h4>
+                  <h6>Chef</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, suos obcaecati soluta inventore quis
+                placeat
+                nobis quasx ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Sue K.</h4>
+                  <h6>Accountant</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolorinventore quis
+                placeat
+                nobis qanditiis temporibus ex ullam similique ab ipsa
+                laboriosam.
+                Maxime!</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Andrew B.</h4>
+                  <h6>Real Estate</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, suos obcaecati soluta inventore quis
+                placeat
+                nobis quas perspiciatis maiores culpa veritatis, blanditiis temporibus ex ullam.</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>James M.</h4>
+                  <h6>Journalist</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-slide">
+            <section>
+              <p>Lorem ipsum dolor, sutore quis
+                placeat.</p>
+              <div class="bottom">
+                <div class="avatar"></div>
+                <div class="details">
+                  <h4>Margaret O.</h4>
+                  <h6>Pensioner</h6>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+
+    </div>
+
+    <div id="contacts" class="eighth-section">
+      <h3>CONTACT US</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="bottom">
+        <input id="contact1" type="text" placeholder="First name">
+        <input id="contact2" type="text" placeholder="Last name">
+        <input id="contact3" type="tel" placeholder="Phone number">
+        <form action="#">
+          <div class="inputs">
+            <input id="personal" type="radio" name="contact" value="personal">
+            <label for="personal">PERSONAL</label>
+            <input id="company" type="radio" name="contact" value="company">
+            <label for="company">COMPANY</label>
+          </div>
+        </form>
+        <button id="sendit">SEND</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social">
+        <a href="#s"><img src="app/images/facebook-logo-1.svg" alt="facebook"></a>
+        <a href="#s"><img src="app/images/instagram-logo-1.svg" alt="instagram"></a>
+        <a href="#s"><img src="app/images/twitter-1.svg" alt="twitter"></a>
+        <a href="#s"><img src="app/images/pinterest-1.svg" alt="pinterest"></a>
+        <a href="#s"><img src="app/images/rss-solid.svg" alt="rss"></a>
+      </div>
+      <p>© 2019 Cheshire County</p>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="app/javascript/swiper.js"></script>
+  <script src="app/javascript/script.js"></script>
 </body>
+
 </html>
