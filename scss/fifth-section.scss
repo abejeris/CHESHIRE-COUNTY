@@ -1,0 +1,67 @@
+@mixin flexi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fifth-section {
+    height: 620px;
+    text-align: center;
+    padding: 0 150px;
+
+    h2 {
+        font-size: 36px;
+        color: $bblack;
+        padding-top: 100px;
+    }
+
+    .line {
+        border-bottom: 2px solid $myorange;
+        width: 64px;
+        margin: 25px auto;
+    }
+
+    p {
+        font-size: 14px;
+        color: #86878B;
+    }
+
+    .bottom {
+        height: 380px;
+        display: flex;
+        @include flexi;
+
+        .sections {
+            max-height: 200px;
+            max-width: 285px;
+            height: 100%;
+            @include flexi;
+            flex-direction: column;
+
+            .icons {
+                width: 50px;
+                height: 50px;
+                border: 1px solid $myorange;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: $myorange;
+                    font-size: 18px;
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 400;
+                color: $ablack;
+            }
+
+            p {
+                color: #86878B;
+            }
+        }
+    }
+}

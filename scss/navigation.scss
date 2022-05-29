@@ -1,0 +1,85 @@
+@mixin flexi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    @include flexi;
+    height: 72px;
+    background: $cblack;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    max-width: 1400px;
+    width: 100%;
+    z-index: 2;
+
+    .nav-title {
+        margin-left: 150px;
+        max-width: 120px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .nav-links {
+        @include flexi;
+        margin-right: 150px;
+        display: block;
+
+        &:hover a {
+            opacity: 69%;
+            transition: 0.3s;
+        }
+
+        a,
+        i {
+            margin: 0 0 0 35px;
+            font-size: 14px;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            transition: 0.3s;
+
+            &:hover {
+                opacity: 100%;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+
+            &::after {
+                content: "";
+                background: $myorange;
+                position: absolute;
+                width: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: -27px;
+                height: 2px;
+                transition: 0.3s;
+            }
+        }
+
+        .display {
+            display: none;
+        }
+    }
+
+    .side-nav {
+        display: none;
+    }
+}
+
+.rotateZ {
+    transform: rotateZ(-135deg);
+}
+
+.translateX {
+    transform: translateX(0) !important;
+}

@@ -1,0 +1,122 @@
+.seventh-section {
+    height: 591px;
+
+    h3 {
+        font-size: 36px;
+        text-align: center;
+        padding-top: 67px;
+        padding-bottom: 30px;
+    }
+
+    .line {
+        border-bottom: 2px solid $myblue;
+        width: 64px;
+        margin: auto;
+    }
+
+    .swiper {
+        max-width: 1200px;
+        z-index: 0;
+
+        .swiper-wrapper {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        section {
+            width: 270px;
+            margin: 15px auto;
+            font-family: Arial, Helvetica, sans-serif;
+
+            p {
+                max-width: 270px;
+                background: $myblue;
+                padding: 20px;
+                border-radius: 8px;
+                line-height: 20px;
+                color: white;
+                margin: 20px 0;
+            }
+
+            .bottom {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                margin-bottom: 100px;
+
+                .avatar {
+                    position: relative;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 100px;
+                    background: url(../images/avatar.png);
+                    background-size: cover;
+                    background-position: 50% 18%;
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        top: -29%;
+                        left: 35%;
+                        border: 10px solid transparent;
+                        border-top: 10px solid $myblue;
+                    }
+                }
+
+                #first {
+                    background: url(../images/boy.jpg);
+                    background-size: cover;
+                }
+
+                #third {
+                    background: url(../images/girl.jpg);
+                    background-size: cover;
+                }
+
+                .details {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: left;
+
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 400;
+                        padding: 10px 0 5px 10px;
+                        color: $ablack;
+                    }
+
+                    h6 {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #86878B;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    text-shadow: 0 0 10px $myblue;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+    text-shadow: 0 0 5px $myblue;
+    font-size: 3em;
+}
+
+.swiper-pagination-bullet {
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    border: 1px solid $myorange;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: $myorange;
+}

@@ -1,3 +1,14 @@
-body {
-  background:red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,600&display=swap');
+@import "variables.scss";
+@import "general.scss";
+@import "navigation";
+@import "first-section.scss";
+@import "second-section.scss";
+@import "third-section.scss";
+@import "fourth-section.scss";
+@import "fifth-section.scss";
+@import "sixth-section.scss";
+@import "seventh-section.scss";
+@import "eighth-section.scss";
+@import "footer";
+@import "media";

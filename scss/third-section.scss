@@ -1,0 +1,188 @@
+.third-section {
+    height: 595px;
+    background: linear-gradient(270deg, rgba(102, 150, 226, 0.42), rgba(226, 120, 102, 0.42)), url(../images/dune.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0 150px;
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+
+        .cube {
+            width: 100px;
+            height: 100px;
+            background: #A37169;
+            margin: 10px;
+            box-shadow: 0 3px 6px $supergrey;
+            transition: 0.3s;
+
+            a {
+                text-decoration: none;
+
+                h3 {
+                    line-height: 100px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 0.5);
+                    transform: rotate(-45deg);
+                    font-size: 14px;
+                }
+            }
+
+            &:hover {
+                background: $myorange;
+
+                h3 {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .swiper-wrapper {
+        align-items: center;
+    }
+
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .middle-side {
+            max-width: 520px;
+
+            h2 {
+                color: white;
+                font-size: 36px;
+                margin: 0 15px;
+            }
+
+            p {
+                color: white;
+                font-size: 14px;
+                margin: 15px;
+            }
+        }
+
+        .right-side {
+            display: flex;
+            flex-direction: column;
+            width: 380px;
+            height: 380px;
+            flex-shrink: 0.3;
+
+            .top {
+                display: flex;
+                height: 100%;
+                width: 100%;
+
+                .left {
+                    background: url(../images/cabbage1.jpg);
+                    width: 100%;
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    margin: 10px;
+                    cursor: pointer;
+                    box-shadow: 0 3px 6px $supergrey;
+
+                    .text {
+                        font-size: 20px;
+                        color: rgb(255, 255, 255);
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        z-index: -1;
+                    }
+
+                    &:hover {
+                        background: linear-gradient(rgba(226, 120, 102, 0.8),
+                                rgba(226, 120, 102, 0.8)),
+                            url(../images/cabbage1.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        transition: 0.3s;
+                    }
+
+                    &:hover .text {
+                        z-index: 1;
+                    }
+                }
+
+                .right {
+                    background: url(../images/veggies1.jpg);
+                    width: 100%;
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    margin: 10px;
+                    cursor: pointer;
+                    box-shadow: 0 3px 6px #00000029;
+
+                    .text {
+                        font-size: 20px;
+                        color: rgb(255, 255, 255);
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        z-index: -1;
+                    }
+
+                    &:hover {
+                        background: linear-gradient(rgba(226, 120, 102, 0.8),
+                                rgba(226, 120, 102, 0.8)),
+                            url(../images/veggies1.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+
+                    &:hover .text {
+                        z-index: 1;
+                    }
+                }
+            }
+
+            .bottom {
+                background: url(../images/stairs1.jpeg);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                margin: 10px;
+                cursor: pointer;
+                box-shadow: 0 3px 6px #00000029;
+
+                .text {
+                    font-size: 20px;
+                    color: rgb(255, 255, 255);
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                }
+
+                &:hover {
+                    background: linear-gradient(rgba(226, 120, 102, 0.8),
+                            rgba(226, 120, 102, 0.8)),
+                        url(../images/stairs1.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                &:hover .text {
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,262 @@
+@media (max-width: 1024px) {
+    nav .nav-title {
+        margin-left: 50px;
+    }
+
+    nav .nav-links {
+        margin-right: 50px;
+    }
+
+    .first-section .info {
+        margin-left: 50px;
+    }
+
+    .first-section .trial {
+
+        margin: 75px 50px 25px 10px;
+    }
+
+    .second-section {
+        padding: 0 50px;
+    }
+
+    .third-section {
+        padding: 0 50px;
+    }
+
+    .fourth-section {
+        padding: 0 50px;
+    }
+
+    .fifth-section {
+        padding: 0 50px;
+    }
+
+    .sixth-section {
+        padding: 0 50px;
+    }
+
+    footer {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 954px) {
+    .fifth-section {
+        height: 650px;
+
+    }
+}
+
+@media (max-width: 800px) {
+
+    .first-section {
+        height: 750px;
+    }
+
+    .third-section .slider .right-side {
+        display: none;
+    }
+
+    .sixth-section .blocks .block:nth-of-type(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+
+    nav .nav-links {
+        justify-content: flex-end;
+        padding-right: 50px;
+
+        a {
+            display: none;
+        }
+
+        .display {
+            display: block;
+        }
+    }
+
+    nav .side-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        height: 400px;
+        width: 200px;
+        transform: translateX(-100%);
+        padding: 0;
+        transition: 0.3s;
+        padding-top: 50px;
+    }
+
+    a {
+        display: inline;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        overflow: hidden;
+        transition: 0.3s;
+
+        &:hover {
+            color: $myorange;
+        }
+    }
+
+    .first-section {
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .trial {
+            margin: 35px auto;
+        }
+
+        .info p {
+            margin-right: 25px;
+        }
+    }
+
+    .second-section {
+        height: 150px;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .text h3,
+        p {
+            text-align: center;
+        }
+
+        .icons {
+            width: 80%;
+        }
+    }
+
+    .third-section .left-side {
+        display: none;
+    }
+
+    .fourth-section {
+        flex-wrap: wrap;
+        height: 700px;
+    }
+
+    .fifth-section {
+        height: 850px;
+
+        h2 {
+            padding-top: 50px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        .bottom {
+
+            flex-wrap: wrap;
+        }
+    }
+
+    .sixth-section {
+        height: 1750px;
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .blocks {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .block {
+                margin: 10px;
+            }
+
+            .block:nth-of-type(3) {
+                display: block;
+            }
+        }
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+
+    nav .nav-links {
+        padding-right: 25px;
+    }
+
+    .first-section {
+        height: 1100px;
+
+        .info {
+            margin-left: 10px;
+        }
+
+        .trial {
+            width: 350px;
+        }
+    }
+
+    .second-section {
+        padding: 0 10px;
+
+        .icons {
+            width: 85%;
+        }
+    }
+
+    .third-section {
+        padding: 0 10px;
+        height: 500px;
+
+        .swiper-wrapper {
+            align-items: center;
+        }
+    }
+
+    .fourth-section {
+        padding: 0 10px;
+
+        .left-side img {
+            width: 90%;
+        }
+    }
+
+    .fifth-section {
+        padding: 0 10px;
+    }
+
+    .sixth-section {
+        height: 1640px;
+        padding: 0 10px;
+
+        h3 {
+            padding-top: 30px;
+        }
+    }
+
+    .seventh-section {
+        height: 620px;
+    }
+
+    .eighth-section {
+        height: 600px;
+    }
+
+    footer {
+        padding: 0 10px;
+
+        .social {
+            width: 75%;
+        }
+    }
+}
